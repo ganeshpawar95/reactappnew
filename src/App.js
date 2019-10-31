@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 import {
@@ -21,31 +21,30 @@ class App extends Component {
       <div className="App">
       <section id="header">
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand" href="#">
-  <img src={logo}  /></a>
+  
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-collapse" id="navbarNav" >
     <ul className="navbar-nav ml-auto">
       <li className="nav-item">
-        <Link to="/" className="nav-link"  dir="ltr" >Home </Link>
+        <Link to="/" className="nav-link"  dir="ltr" >אודות </Link>
       </li>
       <li className="nav-item">
-         <Link to="/Page"  className="nav-link" dir="ltr" >Page</Link>
+         <Link to="/Page"  className="nav-link" dir="ltr" >למה botarbut</Link>
        
       </li>
       <li className="nav-item">
-       <Link to="/About"  className="nav-link" dir="ltr" >About</Link>
+       <Link to="/About"  className="nav-link" dir="ltr" >שירות לקוחות</Link>
       </li>
       <li className="nav-item">
-       <Link to="/Services"  className="nav-link" dir="ltr" >Services</Link>
+       <Link to="/Services"  className="nav-link" dir="ltr" >השותפים</Link>
       </li>
     <li className="nav-item">
-       <Link to="/CLIENTS"  className="nav-link" dir="ltr" > OUR CLIENTS</Link>
+       <Link to="/CLIENTS"  className="nav-link" dir="ltr" > צור קשר</Link>
       </li>
     </ul>
-  
+  <a class="navbar-brand" href="/"><img src={logo} /></a>
   </div>
   
 </nav>

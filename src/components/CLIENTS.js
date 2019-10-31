@@ -23,19 +23,19 @@ const CLIENTS = () => (
 
           <div class="col-md-4 ">
             <div class="supporter-logo">
-              <img src={img9} class="img-fluid" alt="" />
+              <img src={img9}  alt="" />
             </div>
           </div>
           
           <div class=" col-md-4 ">
             <div class="supporter-logo">
-              <img src={img10} class="img-fluid" alt="" / >
+              <img src={img10} alt="" />
             </div>
           </div>
         
           <div class="col-md-4">
             <div class="supporter-logo">
-              <img src={img11} class="img-fluid" alt="" />
+              <img src={img11} alt="" />
             </div>
           </div>
 </div>
@@ -49,25 +49,25 @@ const CLIENTS = () => (
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src={img12} class="img-fluid" alt="" />
+              <img src={img12} alt="" />
             </div>
           </div>
           
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src={img13} class="img-fluid" alt="" />
+              <img src={img13} alt="" />
             </div>
           </div>
         
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src={img16} class="img-fluid" alt="" />
+              <img src={img16}  alt="" />
             </div>
           </div>
           
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src={img17} class="img-fluid" alt="" />
+              <img src={img17} alt="" />
             </div>
           </div>
 </div>

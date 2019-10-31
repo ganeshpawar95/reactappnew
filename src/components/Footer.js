@@ -2,9 +2,9 @@ import React from 'react';
 import './Ap.css';
 const Footer = () => (
   <div>
-    <section id="footer">
+   <section id="footer">
             <div class="container text-center">
-            <p>Made with<i class="fa fa-heart-o"></i>All Rights Reserved</p></div>
+            <p>BOTARBUT © 2019. All Rights Reserved</p></div>
         </section>
  </div>
 );
